@@ -3,11 +3,13 @@
 
 [TOC]: # " "
 
-- [About The Project](#about-the-project)
-- [The Aim Of The Project](#the-aim-of-the-project)
-- [About This Repository](#about-this-repository)
-- [About us & Contact](#about-us--contact)
-- [Links](#links)
+- [Yahtzee Advanced Pick &amp; Place System](#yahtzee-advanced-pick--place-system)
+    - [About The Project](#about-the-project)
+    - [The Aim Of The Project](#the-aim-of-the-project)
+    - [About This Repository](#about-this-repository)
+    - [About us & Contact](#about-us--contact)
+    - [Links](#links)
+    - [Reference List](#reference-list)
 
 ## About The Project
 The Netherlands is undergoing a powerful development in the area of High-tech Systems and
@@ -43,7 +45,7 @@ This repository contains the design and implementation of the Yahtzee Advanced P
 
 ## Links
 
-## Refecrences
+## Reference List
 
 ![nhlstendenMadeByStudents.png](Resources/images/logos/nhlstendenMadeByStudents.png)
 
