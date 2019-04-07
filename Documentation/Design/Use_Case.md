@@ -9,9 +9,9 @@ This document shows the use case's of this project (Product Backlog) and the Use
         - [Actor - Developer](#actor---developer)
         - [Actor - User](#actor---user)
     - [Alternative Actors](#alternative-actors)
-        - [Actor - Yapps Cartographer](#actor---yapps-cartographer)
-        - [Actor - Yapps Path Planner](#actor---yapps-path-planner)
-        - [Actor - Yapps UR10 Communicator](#actor---yapps-ur10-communicator)
+        - [Actor - Cartographer Module](#actor---cartographer-module)
+        - [Actor - Path Planner Module](#actor---path-planner-module)
+        - [Actor - UR10 Communication Module](#actor---ur10-communication-module)
     - [Reference List](#reference-list)
 
 ## Product Backlog
@@ -64,16 +64,16 @@ This document shows the use case's of this project (Product Backlog) and the Use
 - **As a** User **I want to** be able to configure what items will be shown in the current system information panel **so that** he or she can select the data that is relevant to him or her.
 
 ## Alternative Actors
-### Actor - Yapps Cartographer
-- **As the** Yapps Cartographer **I want to** be able to take pictures with the camera attached to the UR10 **so that** it can be send to OpenCV to be analyzed and altered.
-- **As the** Yapps Cartographer **I want to** be able to create a map that has a picture and dice metadata **so that** it can be used to plan paths.
-- **As the** Yapps Cartographer **I want to**  **so that**
-- **As the** Yapps Cartographer **I want to**  **so that**
+### Actor - Cartographer Module
+- **As the** Cartographer **I want to** be able to take pictures with the camera attached to the UR10 **so that** it can be send to OpenCV to be analyzed and altered.
+- **As the** Cartographer **I want to** be able to create a map that has a picture and dice metadata **so that** it can be used to plan paths.
+- **As the** Cartographer **I want to**  **so that**
+- **As the** Cartographer **I want to**  **so that**
 - **As a**  **I want to**  **so that**
 -
-### Actor - Yapps Path Planner
+### Actor - Path Planner Module
 
-### Actor - Yapps UR10 Communicator
+### Actor - UR10 Communication Module
 
 
 I want to make a method to recognize dice contours with OpenCV so that the dice can be recognized.
