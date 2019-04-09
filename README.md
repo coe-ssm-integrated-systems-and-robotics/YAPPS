@@ -17,6 +17,10 @@
     - [About This Repository](#about-this-repository)
     - [Documentation](#documentation)
     - [Project Details](#project-details)
+        - [Get started](#get-started)
+            - [Clone the project](#clone-the-project)
+            - [install dev](#install-dev)
+            - [tests](#tests)
     - [About us & Contact](#about-us--contact)
     - [Links](#links)
     - [APA Reference List](#apa-reference-list)
@@ -73,19 +77,23 @@ This repository contains the design and implementation of the Yahtzee Advanced P
 | License        | [GPLv3 - General Public Licence Version 3](LICENCE)                                                                                                |
 | git repo       | https://github.com/coe-ssm-integrated-systems-and-robotics/YAPPS.git                                                                               |
 
-
-                    $ git clone https://github.com/jorisrietveld/YAPPS.git
-install dev     .. code-block:: bash
-
-                    $ git clone https://github.com/jorisrietveld/YAPPS.git YAPPS
-                    $ cd ./YAPPS
-                    $ virtualenv .env
-                    $ source .env/bin/activate
-                    $ pip install -e .
-tests           .. code-block:: bash
-
-                    $ python setup.py test
-
+### Get started
+#### Clone the project
+```console
+$ git clone https://github.com/jorisrietveld/YAPPS.git
+```
+#### install dev
+```console
+$ git clone https://github.com/jorisrietveld/YAPPS.git YAPPS
+$ cd ./YAPPS
+$ virtualenv .env
+$ source .env/bin/activate
+$ pip install -e
+~~~
+#### tests
+```console
+$ python setup.py test
+~~~
 ## About us & Contact
 
 - [Joris Rietveld](https://github.com/jorisrietveld) :netherlands: - Embedded Software Developer
