@@ -6,7 +6,8 @@
 [![CodeFactor](https://www.codefactor.io/repository/github/coe-ssm-integrated-systems-and-robotics/yapps/badge)](https://www.codefactor.io/repository/github/coe-ssm-integrated-systems-and-robotics/yapps) &nbsp;
 [![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](LICENSE) &nbsp;
 ![Python versions](https://img.shields.io/badge/python%20versions-2.6%7C2.7%7C3.3%7C3.4%7C3.5%7C3.6-brightgreen.svg) &nbsp;
-![GitHub last commit](https://img.shields.io/github/last-commit/coe-ssm-integrated-systems-and-robotics/YAPPS.svg)
+![GitHub last commit](https://img.shields.io/github/last-commit/coe-ssm-integrated-systems-and-robotics/YAPPS.svg)&nbsp;
+[![Documentation Status](https://readthedocs.org/projects/yapps/badge/?version=latest)](https://yapps.readthedocs.io/en/latest/?badge=latest)
 
 
 [TOC]: # "Table of contents"
@@ -60,8 +61,12 @@ This repository contains the design and implementation of the Yahtzee Advanced P
 - [Use_Case](Documentation/Design/Use_Case.md)
 
 [**Yapps Scheme's**](Documentation/Schemes)
-[**URScript**](Documentation/Schemes)
+- [Flow Chart Boot](Documentation/Schemes/Flow_Chart_01_Boot.svg)
 
+[**URScript**](Documentation/URScript)
+- [move_commands](Documentation/URScript/move_commands.md)
+- [TCP](Documentation/URScript/TCP.md)
+- [Waypoint](Documentation/URScript/Waypoint.md)
 ## Project Details
 
 | Details for    | Details                                                                                                                                            |
