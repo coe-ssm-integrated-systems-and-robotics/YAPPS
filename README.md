@@ -9,8 +9,9 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/coe-ssm-integrated-systems-and-robotics/YAPPS.svg)
 
 
-[TOC]: # " "
+[TOC]: # "Table of contents"
 
+## Table of contents
 - [Yahtzee Advanced Pick &amp; Place System](#yahtzee-advanced-pick--place-system)
     - [About The Project](#about-the-project)
     - [The Aim Of The Project](#the-aim-of-the-project)
