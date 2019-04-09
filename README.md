@@ -6,7 +6,7 @@
 [![CodeFactor](https://www.codefactor.io/repository/github/coe-ssm-integrated-systems-and-robotics/yapps/badge)](https://www.codefactor.io/repository/github/coe-ssm-integrated-systems-and-robotics/yapps) &nbsp;
 [![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](LICENSE) &nbsp;
 ![Python versions](https://img.shields.io/badge/python%20versions-2.6%7C2.7%7C3.3%7C3.4%7C3.5%7C3.6-brightgreen.svg) &nbsp;
-![GitHub commit activity](https://img.shields.io/github/commit-activity/m/coe-ssm-integrated-systems-and-robotics/Yapps.svg)
+![GitHub last commit](https://img.shields.io/github/last-commit/coe-ssm-integrated-systems-and-robotics/YAPPS.svg)
 
 
 [TOC]: # " "
