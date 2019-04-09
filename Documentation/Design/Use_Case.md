@@ -8,10 +8,6 @@ This document shows the use case's of this project (Product Backlog) and the Use
     - [Product Backlog](#product-backlog)
         - [Actor - Developer](#actor---developer)
         - [Actor - User](#actor---user)
-    - [Alternative Actors](#alternative-actors)
-        - [Actor - Cartographer Module](#actor---cartographer-module)
-        - [Actor - Path Planner Module](#actor---path-planner-module)
-        - [Actor - UR10 Communication Module](#actor---ur10-communication-module)
     - [Reference List](#reference-list)
 
 ## Product Backlog
@@ -63,33 +59,8 @@ This document shows the use case's of this project (Product Backlog) and the Use
 - **As a** User **I want to** be able to activate the current system information panel that shows information about current state **so that** he or she can monitor the state of the UR10, attached tool or the raspberry pi.
 - **As a** User **I want to** be able to configure what items will be shown in the current system information panel **so that** he or she can select the data that is relevant to him or her.
 
-## Alternative Actors
-### Actor - Cartographer Module
-- **As the** Cartographer **I want to** be able to take pictures with the camera attached to the UR10 **so that** it can be send to OpenCV to be analyzed and altered.
-- **As the** Cartographer **I want to** be able to create a map that has a picture and dice metadata **so that** it can be used to plan paths.
-- **As the** Cartographer **I want to**  **so that**
-- **As the** Cartographer **I want to**  **so that**
-- **As a**  **I want to**  **so that**
--
-### Actor - Path Planner Module
-
-### Actor - UR10 Communication Module
 
 
-I want to make a method to recognize dice contours with OpenCV so that the dice can be recognized.
-Create a method with which dice shapes can be recognized.
-Create a method that recognizes dots.
-Test and evaluate full functionalities.
-As a developer, I want to make a method that indicates the position of an object using OpenCV so that the location can be passed on.
-Create a method with which the location can be determined.
-As a developer, I want to set up the basic structure of the Raspberry Pi program so that it can be used correctly.
-Make a basic setup of the Raspberry Pi program
-As a developer, I want to make a method that allows communication with the UR10 controller so that the Raspberry Pi can communicate with the UR10 controller.
-Figure out the communication protocol between the Raspberry Pi and the UR10 controller.
-Create a method that allows communication over Ethernet.
-Create a connection via the router and specify IP addresses.
-Specify ip addresses and make a connection.
-As a developer, I want all components of the entire system to communicate with each other via the router
 Connect the UR10 controller and the Raspberry to the router.
 As a developer, I want to set up the basic structure of the program of the UR10 controller so that it can be used correctly.
 Make a basic design of the program of the UR10 controller.

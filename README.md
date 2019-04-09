@@ -1,15 +1,25 @@
 ![yapps_logo.svg](Resources/images/logos/yapps_logo.svg)
 # Yahtzee Advanced Pick &amp; Place System
 
+[![Build Status](https://travis-ci.org/coe-ssm-integrated-systems-and-robotics/YAPPS.svg?branch=master)](https://travis-ci.org/coe-ssm-integrated-systems-and-robotics/YAPPS) &nbsp;
+[![Coverage Status](https://coveralls.io/repos/github/coe-ssm-integrated-systems-and-robotics/YAPPS/badge.svg?branch=master)](https://coveralls.io/github/coe-ssm-integrated-systems-and-robotics/YAPPS?branch=master)&nbsp;
+[![CodeFactor](https://www.codefactor.io/repository/github/coe-ssm-integrated-systems-and-robotics/yapps/badge)](https://www.codefactor.io/repository/github/coe-ssm-integrated-systems-and-robotics/yapps) &nbsp;
+[![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](LICENSE) &nbsp;
+![Python versions](https://img.shields.io/badge/python%20versions-2.6%7C2.7%7C3.3%7C3.4%7C3.5%7C3.6-brightgreen.svg) &nbsp;
+![GitHub commit activity](https://img.shields.io/github/commit-activity/m/coe-ssm-integrated-systems-and-robotics/Yapps.svg)
+
+
 [TOC]: # " "
 
 - [Yahtzee Advanced Pick &amp; Place System](#yahtzee-advanced-pick--place-system)
     - [About The Project](#about-the-project)
     - [The Aim Of The Project](#the-aim-of-the-project)
     - [About This Repository](#about-this-repository)
+    - [Documentation](#documentation)
+    - [Project Details](#project-details)
     - [About us & Contact](#about-us--contact)
     - [Links](#links)
-    - [Reference List](#reference-list)
+    - [APA Reference List](#apa-reference-list)
 
 ## About The Project
 The Netherlands is undergoing a powerful development in the area of High-tech Systems and
@@ -39,13 +49,59 @@ Research, develop and implement an advanced Pick & Place system with a controlle
 ## About This Repository
 This repository contains the design and implementation of the Yahtzee Advanced Pick & Place System. The aim of this repository is to create a program that is able to detect and manipulate dices with the UR10 ([Universal Robot 10](https://www.universal-robots.com/nl/producten/ur10-robot/)). The software will be developed in [URScript]() (The default programming language available on the UR10) and [Python 3](https://docs.python.org/3/). To detect the dice we use [OpenCV]() and its python bindings to process the data and send commands to the UR10 over ethernet.
 
+## Documentation
+[**Yapps Design**](Documentation/Design)
+   - [Design Document](Documentation/Design/design_document_v1.0.1.md)  ([pdf](Documentation/Design/Design%20Document%20v1.0.0.pdf))
+- [Use_Case](Documentation/Design/Use_Case.md)
+
+[**Yapps Scheme's**](Documentation/Schemes)
+[**URScript**](Documentation/Schemes)
+
+## Project Details
+
+| Details for    | Details                                                                                                                                            |
+|:---------------|:---------------------------------------------------------------------------------------------------------------------------------------------------|
+| Python support | Python 2.7, >= 3.3                                                                                                                                 |
+| Source         | [https://github.com/coe-ssm-integrated-systems-and-robotics/YAPPS]()                                                                               |
+| Docs           | [http://YAPPS.rtfd.org](http://YAPPS.rtfd.org)                                                                                                                          |
+| Changelog      | [http://YAPPS.readthedocs.org/en/latest/history.html](http://YAPPS.readthedocs.org/en/latest/history.html)                                         |
+| API            | [http://YAPPS.readthedocs.org/en/latest/api.html](http://YAPPS.readthedocs.org/en/latest/api.html)                                                 |
+| Issues         | [https://github.com/coe-ssm-integrated-systems-and-robotics/YAPPS/issues](https://github.com/coe-ssm-integrated-systems-and-robotics/YAPPS/issues) |
+| Travis         | [http://travis-ci.org/coe-ssm-integrated-systems-and-robotics/YAPPS](http://travis-ci.org/coe-ssm-integrated-systems-and-robotics/YAPPS)           |
+| Test coverage  | [https://coveralls.io/r/coe-ssm-integrated-systems-and-robotics/YAPPS](https://coveralls.io/r/coe-ssm-integrated-systems-and-robotics/YAPPS)       |
+| pypi           | [https://pypi.python.org/pypi/YAPPS](https://pypi.python.org/pypi/YAPPS)                                                                           |
+| License        | [GPLv3 - General Public Licence Version 3](LICENCE)                                                                                                |
+| git repo       | https://github.com/coe-ssm-integrated-systems-and-robotics/YAPPS.git                                                                               |
+
+
+                    $ git clone https://github.com/jorisrietveld/YAPPS.git
+install dev     .. code-block:: bash
+
+                    $ git clone https://github.com/jorisrietveld/YAPPS.git YAPPS
+                    $ cd ./YAPPS
+                    $ virtualenv .env
+                    $ source .env/bin/activate
+                    $ pip install -e .
+tests           .. code-block:: bash
+
+                    $ python setup.py test
+
 ## About us & Contact
 
-[Joris Rietveld ](https://github.com/jorisrietveld) - :penguin: Enthusiast & Embedded Software Developer
+- [Joris Rietveld](https://github.com/jorisrietveld) :netherlands: - Embedded Software Developer
+- [Romandy Richardson](mailto:romandy.richardson@student.stenden.com) (Saint-Martin):netherlands:  - Team Member
+- [Danylo Znamerovskyi](mailto:danylo.znamerovskyi@student.stenden.com) :ukraine: - Project Leader
+- [Tarik Arrindell](mailto:tarik.arrindell@student.stenden.com) - Team member
+
 
 ## Links
 
-## Reference List
+## APA Reference List
+- Programming with Mosh. (2018, October 22). Python Tutorial for Programmers - Python Crash Course \[Video file\]. Retrieved April 7, 2019, from https://www.youtube.com/watch?v=f79MRyMsjrQ
+- R. Audrey (2016) Cookiecutter - Read The Docs. Retrieved April 7, 2019, from https://cookiecutter.readthedocs.io/en/latest/readme.md
+- T. Narlock (2016) Cookiecutter pyhonic - Readme. Retrieved 7 April, 2019, from https://github.com/tony/cookiecutter-pypackage-pythonic
+- Forgac, D. (2015, August 8). Python Packaging from Init to Deploy \[Video file\]. Retrieved April 7, 2019, from https://www.youtube.com/watch?v=4fzAMdLKC5k
+
 
 ![nhlstendenMadeByStudents.png](Resources/images/logos/nhlstendenMadeByStudents.png)
 

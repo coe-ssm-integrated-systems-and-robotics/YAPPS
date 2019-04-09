@@ -1,0 +1,8 @@
+__title__ = 'Yapps'
+__package_name__ = 'YAPPS'
+__author__ = 'INF2E'
+__description__ = 'Yahtzee Advanced Pick & Place System'
+__email__ = 'jorisrietveld@gmail.com'
+__version__ = '0.1.0'
+__license__ = 'GPLv3'
+__copyright__ = 'Copyright 2019 INF2E'
