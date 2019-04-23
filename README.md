@@ -5,7 +5,6 @@
 [![Coverage Status](https://coveralls.io/repos/github/coe-ssm-integrated-systems-and-robotics/YAPPS/badge.svg?branch=master)](https://coveralls.io/github/coe-ssm-integrated-systems-and-robotics/YAPPS?branch=master)&nbsp;
 [![CodeFactor](https://www.codefactor.io/repository/github/coe-ssm-integrated-systems-and-robotics/yapps/badge)](https://www.codefactor.io/repository/github/coe-ssm-integrated-systems-and-robotics/yapps) &nbsp;
 [![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](LICENSE) &nbsp;
-![Python versions](https://img.shields.io/badge/python%20versions-2.6%7C2.7%7C3.3%7C3.4%7C3.5%7C3.6-brightgreen.svg) &nbsp;
 ![GitHub last commit](https://img.shields.io/github/last-commit/coe-ssm-integrated-systems-and-robotics/YAPPS.svg)&nbsp;
 [![Documentation Status](https://readthedocs.org/projects/yapps/badge/?version=latest)](https://yapps.readthedocs.io/en/latest/?badge=latest)
 
@@ -88,6 +87,7 @@ This repository contains the design and implementation of the Yahtzee Advanced P
 ```console
 $ git clone https://github.com/jorisrietveld/YAPPS.git
 ```
+
 #### install dev
 ```console
 $ git clone https://github.com/jorisrietveld/YAPPS.git YAPPS
@@ -95,11 +95,13 @@ $ cd ./YAPPS
 $ virtualenv .env
 $ source .env/bin/activate
 $ pip install -e
-~~~
+```
+
 #### tests
 ```console
 $ python setup.py test
-~~~
+```
+
 ## About us & Contact
 
 - [Joris Rietveld](https://github.com/jorisrietveld) :netherlands: - Embedded Software Developer
@@ -115,6 +117,7 @@ $ python setup.py test
 - R. Audrey (2016) Cookiecutter - Read The Docs. Retrieved April 7, 2019, from https://cookiecutter.readthedocs.io/en/latest/readme.md
 - T. Narlock (2016) Cookiecutter pyhonic - Readme. Retrieved 7 April, 2019, from https://github.com/tony/cookiecutter-pypackage-pythonic
 - Forgac, D. (2015, August 8). Python Packaging from Init to Deploy \[Video file\]. Retrieved April 7, 2019, from https://www.youtube.com/watch?v=4fzAMdLKC5k
+- Robotic Systems Lab. (2017, February 20). Programming for Robotics (ROS) Course 1 \[Video file\]. Retrieved April 23, 2019, from https://www.youtube.com/watch?v=0BxVPCInS3M
 
 
 ![nhlstendenMadeByStudents.png](Resources/images/logos/nhlstendenMadeByStudents.png)
